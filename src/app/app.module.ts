@@ -13,6 +13,10 @@ import { HomeComponent } from './pages/home/home.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { EventsComponent } from './pages/events/events.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { PortraitCardComponent } from './components/portrait-card/portrait-card.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -26,17 +30,23 @@ import { EventsComponent } from './pages/events/events.component';
     HomeComponent,
     ContactComponent,
     FooterComponent,
-    EventsComponent
+    EventsComponent,
+    ContactFormComponent,
+    PortraitCardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],
   exports: [
     ToolbarComponent,
-    FooterComponent
+    FooterComponent,
+    ContactFormComponent,
+    PortraitCardComponent
   ]
 })
 export class AppModule { }

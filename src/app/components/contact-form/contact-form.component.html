@@ -1,0 +1,50 @@
+<div id="formDiv" class="container">
+  <form (ngSubmit)="onSubmit()">
+      <div class="mb-3 row">
+        <label class="col-3 col-form-label" for="staticEmail">To</label>
+        <input
+          type="text"
+          readonly
+          class="col-9 form-control-plaintext"
+          id="staticEmail"
+          value="contact@fostoriacommunityband.org"
+        />
+      </div>
+      <div class="mb-3 row">
+        <label for="email">Email</label>
+        <input id="email" type="text" [formControl]="email" />
+      </div>
+      <div class="mb-3 row">
+        <label for="firstName">First Name</label>
+        <input id="firstName" type="text" [formControl]="firstName" />
+      </div>
+      <div class="mb-3 row">
+        <label for="lastName" class="col-form-label">Last Name</label>
+        <input id="lastName" type="text" [formControl]="lastName" />
+      </div>
+      <div class="mb-3 row">
+        <label for="instrument" class="col-form-label">Instrument</label>
+        <input type="text" id="instrument" [formControl]="instrument" />
+      </div>
+      <div class="mb-3 row">
+        <label for="yearsExperience" class="col-form-label"
+          >Years of Experience</label
+        >
+        <input type="number" id="yearsExperience" [formControl]="yearsExperience" />
+      </div>
+      <div class="mb-3 row">
+        <label for="emailBody" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-form-label">Comments or Questions</label>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <textarea
+            rows="6"
+            class="form-control"
+            id="emailBody"
+            [formControl]="messageBody"
+          ></textarea>
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <input type="submit" value="Send" class="btn btn-primary">
+      </div>
+  </form>
+</div>

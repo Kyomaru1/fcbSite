@@ -1,0 +1,69 @@
+[
+    {
+        "firstName": "Phillip",
+        "lastName": "Miller",
+        "boardPosition": "Director",
+        "imageSource" : "../../../assets/winter_concert_1.jpg"
+    },
+    {
+        "firstName": "Cody",
+        "lastName": "Switzer",
+        "boardPosition": "President",
+        "imageSource" : "../../../assets/winter_concert_1.jpg"
+        
+    },
+    {
+        "firstName": "Rachel",
+        "lastName": "Fleck",
+        "boardPosition": "Secretary",
+        "imageSource" : "../../../assets/winter_concert_1.jpg"
+    },
+    {
+        "firstName": "Curt",
+        "lastName": "Dahms",
+        "boardPosition": "Treasurer",
+        "imageSource" : "../../../assets/winter_concert_1.jpg"
+    },
+    {
+        "firstName": "Natalie",
+        "lastName": "Ardner",
+        "boardPosition": "Board Member",
+        "imageSource" : "../../../assets/winter_concert_1.jpg"
+    },
+    {
+        "firstName": "Fayanne",
+        "lastName": "Corfmann",
+        "boardPosition": "Board Member",
+        "imageSource" : "../../../assets/winter_concert_1.jpg"
+    },
+    {
+        "firstName": "Tom",
+        "lastName": "Schetter",
+        "boardPosition": "Board Member",
+        "imageSource" : "../../../assets/winter_concert_1.jpg"
+    },
+    {
+        "firstName": "Phillip",
+        "lastName": "Miller",
+        "boardPosition": "Director",
+        "imageSource" : "../../../assets/winter_concert_1.jpg"
+    },
+    {
+        "firstName": "Donna",
+        "lastName": "Eash",
+        "boardPosition": "Librarian",
+        "imageSource" : "../../../assets/winter_concert_1.jpg"
+    },
+    {
+        "firstName": "Anne",
+        "lastName": "Barbour",
+        "boardPosition": "Librarian",
+        "imageSource" : "../../../assets/winter_concert_1.jpg"
+    },
+    {
+        "firstName": "Drew",
+        "lastName": "Ardner",
+        "boardPosition": "Webmaster",
+        "imageSource" : "../../../assets/winter_concert_1.jpg"
+    }
+]
