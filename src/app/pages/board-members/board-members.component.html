@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>Current Board Members</h2>
+  <div class="row">
+    <div *ngFor="let member of board_members" class="col-md-3 my-5">
+      <app-portrait-card [member]="member"></app-portrait-card>
+    </div>
+  </div>
+</div>

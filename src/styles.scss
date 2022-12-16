@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Roboto', serif;
+    background:rgb(165, 165, 165);
+    color:white;
+    }
+
+
+// Variable overrides first
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
