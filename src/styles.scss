@@ -3,6 +3,10 @@ body {
     font-family: 'Roboto', serif;
     background:rgb(165, 165, 165);
     color:white;
+    display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   justify-content: space-between;
     }
 
 
